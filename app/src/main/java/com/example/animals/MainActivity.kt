@@ -5,9 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import androidx.fragment.app.Fragment
-import com.example.animals.fragments.HomeFragment
-import com.example.animals.fragments.Level1
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,8 +21,9 @@ class MainActivity : AppCompatActivity() {
         buttonPlay.setOnClickListener(object : View.OnClickListener{
             override fun onClick(v: View?) {
                 val intent = Intent(this@MainActivity, GameActivity::class.java)
-                startActivity(intent)
 
+                startActivity(intent)
+                finish()
             }
         })
 

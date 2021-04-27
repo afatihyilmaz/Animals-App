@@ -4,49 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity"
+    tools:context=".GameActivity"
     android:background="#0A84FA">
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:text="Animals"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textViewFindAnimal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Find The Lion. Lion makes sound Roar!"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <LinearLayout
+    <GridLayout
         android:id="@+id/linLayoutLvl1"
         android:layout_width="350dp"
         android:layout_height="151dp"
-        android:layout_marginTop="50dp"
-        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFindAnimal">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/ivLvl1Animal1"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginLeft="10dp"
+            android:layout_row="0"
+            android:layout_column="0"
             android:background="@drawable/chicken" />
 
         <ImageView
@@ -54,10 +29,12 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginLeft="30dp"
+            android:layout_row="0"
+            android:layout_column="1"
             android:background="@drawable/lion" />
 
 
-    </LinearLayout>
+    </GridLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
