@@ -70,7 +70,7 @@
             android:layout_column="0"
             android:layout_margin="5dp"
             android:onClick="increaseScore"
-            android:background="@drawable/chicken" />
+             />
 
         <ImageView
             android:id="@+id/imageView01"
@@ -80,7 +80,7 @@
             android:layout_column="1"
             android:layout_margin="5dp"
             android:onClick="increaseScore"
-            android:background="@drawable/lion" />
+             />
         <ImageView
             android:id="@+id/imageView02"
             android:layout_width="100dp"
@@ -89,7 +89,7 @@
             android:layout_column="2"
             android:layout_margin="5dp"
             android:onClick="increaseScore"
-            android:background="@drawable/dog" />
+             />
 
         <ImageView
             android:id="@+id/imageView10"
@@ -99,7 +99,7 @@
             android:layout_column="0"
             android:layout_margin="5dp"
             android:onClick="increaseScore"
-            android:background="@drawable/bird" />
+             />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -110,7 +110,7 @@
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
             android:onClick="increaseScore"
-            android:background="@drawable/cat" />
+             />
         <ImageView
             android:id="@+id/imageView12"
             android:layout_width="100dp"
@@ -120,7 +120,7 @@
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
             android:onClick="increaseScore"
-            android:background="@drawable/owl" />
+             />
 
         <ImageView
             android:id="@+id/imageView20"
@@ -130,7 +130,7 @@
             android:layout_column="0"
             android:layout_margin="5dp"
             android:onClick="increaseScore"
-            android:background="@drawable/cock" />
+            />
 
         <ImageView
             android:id="@+id/imageView21"
@@ -141,7 +141,7 @@
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
             android:onClick="increaseScore"
-            android:background="@drawable/duck" />
+             />
         <ImageView
             android:id="@+id/imageView22"
             android:layout_width="100dp"
@@ -151,7 +151,7 @@
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
             android:onClick="increaseScore"
-            android:background="@drawable/sheep" />
+             />
 
         <ImageView
             android:id="@+id/imageView30"
@@ -161,7 +161,7 @@
             android:layout_column="0"
             android:layout_margin="5dp"
             android:onClick="increaseScore"
-            android:background="@drawable/cow" />
+             />
 
         <ImageView
             android:id="@+id/imageView31"
@@ -172,7 +172,7 @@
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
             android:onClick="increaseScore"
-            android:background="@drawable/horse" />
+             />
         <ImageView
             android:id="@+id/imageView32"
             android:layout_width="100dp"
@@ -182,7 +182,7 @@
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
             android:onClick="increaseScore"
-            android:background="@drawable/elephant" />
+             />
 
 
     </GridLayout>
