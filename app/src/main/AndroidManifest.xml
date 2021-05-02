@@ -9,15 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Animals">
-        <activity android:name=".GameActivity"></activity>
+        <activity android:name=".Level5Activity"></activity>
+        <activity android:name=".Level4Activity" />
+        <activity android:name=".Level3Activity" />
+        <activity android:name=".Level2Activity" />
+        <activity android:name=".Level1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.TTS_SERVICE" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
