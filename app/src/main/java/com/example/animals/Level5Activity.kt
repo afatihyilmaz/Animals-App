@@ -519,7 +519,7 @@ class Level5Activity : AppCompatActivity() , TextToSpeech.OnInitListener {
         alert.setMessage("Your score is $score. Restart The Game?")
         alert.setPositiveButton("Yes") {dialog, which ->
             //Restart
-            val intent = Intent(this@Level5Activity, MainActivity::class.java)
+            val intent = Intent(this@Level5Activity, Level1Activity::class.java)
             saveBestScore()
             finish()
             startActivity(intent)
